@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: run-action
-        uses: sobelow/action@cfd3564a3d589e03babf5289c1e845ecbfe0dbcb
+        uses: sobelow/action@6667e4acd1baa82b402f8cdd85133d804820e41c
         with:
           flags: '-i Config.CSP'
       - uses: github/codeql-action/upload-sarif@v1
